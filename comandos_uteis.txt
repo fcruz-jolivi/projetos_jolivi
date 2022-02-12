@@ -1,0 +1,5 @@
+Comandos do NVM
+
+    nvm list available -> Lista as versões remotas do node disponíveis para dowload
+    nvm list           -> Lista quais versões do node ja estão instaladas e disponíveis no sistema para uso
+    nvm use            -> Muda para a versão que se pretende usar do node

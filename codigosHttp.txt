@@ -1,0 +1,9 @@
+Categorias de Códigos HTTP
+
+Códigos HTTP são gerados a todo momento durante a navegação pela internet. Abaixo, você confere as cinco categorias em que eles se subdividem e que tipos de informações iniciais eles mostram.
+
+1XX – Informativo. O pedido de acesso a uma página foi aceito e o desenvolvimento do processo continua em andamento.
+2XX – Confirmação. Uma ação, como o pedido de acesso a uma página, foi entendida ou terminada.
+3XX – Redirecionamento. Indica que uma ação extra precisa ser executada para que o pedido de acesso possa ser concluído.
+4XX – Erro no Cliente. A solicitação do cliente para acessar uma página na internet pelo servidor não pode ser realizada.
+5XX – Erro no Servidor. O servidor que contém os dados não foi capaz de atender ao pedido de acesso a uma página, causando uma falha momentânea.
