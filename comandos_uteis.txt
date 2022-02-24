@@ -3,3 +3,16 @@ Comandos do NVM
     nvm list available -> Lista as versões remotas do node disponíveis para dowload
     nvm list           -> Lista quais versões do node ja estão instaladas e disponíveis no sistema para uso
     nvm use            -> Muda para a versão que se pretende usar do node
+
+Comandos GIT
+
+    git cherry-pick <hash do commit> -> Traz um commit específico para a branch atual
+    
+    Buscando alterações com git bisect
+    git bisect start -> inicia o processo de Busca
+    git bisect bad HEAD -> Aponta para o ponteiro atual de trabalho
+    git bisect bad -> Informa que o commit não contém as infos que vc está procurando e o git entende que tem que continuar a Busca
+    git bisect good -> Informa que o commit contém as alterações ou o bug que estava procurando
+    git bisect reset -> sai da busca do git
+
+    obs: Para reverter ao commit encontrado na busca com o comando bisect basta dar um git revert <hash do commit>
