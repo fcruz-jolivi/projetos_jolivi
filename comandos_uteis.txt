@@ -28,3 +28,5 @@ Comandos GIT
     - Feature -> branch específica para o desenvolvimento de novas funcionalidades
     - Hotfix -> branch que serve exclusivamente para a correção de bugs da master
     - release -> versão para teste de todas as funcionalidades desenvolvidas na branch Develop
+
+    git hook adiciona funcionalidades ao git
