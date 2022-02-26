@@ -6,6 +6,8 @@ Comandos do NVM
 
 Comandos GIT
 
+    git show <hash> -> mostra todas alterações do commit indicado pela hash
+
     git cherry-pick <hash do commit> -> Traz um commit específico para a branch atual
     
     Buscando alterações com git bisect
@@ -16,3 +18,13 @@ Comandos GIT
     git bisect reset -> sai da busca do git
 
     obs: Para reverter ao commit encontrado na busca com o comando bisect basta dar um git revert <hash do commit>
+
+    git blame <nome do arquivo> -> esse comando revela quem fez alterações no arquivo, indicando o nome na linha que realizou a inclusão ou alteração
+
+    git flow: Sistema de organização baseada em criação de branches
+
+    - Master -> ramo que subimos somente códigos que estejam em pleno funcionamento
+    - Develop -> criado a partir da master que servirá como base para o desenvolvimento de novas funcionalidade
+    - Feature -> branch específica para o desenvolvimento de novas funcionalidades
+    - Hotfix -> branch que serve exclusivamente para a correção de bugs da master
+    - release -> versão para teste de todas as funcionalidades desenvolvidas na branch Develop
